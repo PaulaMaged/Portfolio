@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.top-section .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    font-size: 28px;
+}
+
+.hero-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.hero-main {
+    font-size: 24px;
+    line-height: 5px;
+}
+
+.hero-main, .hero-secondary {
+    flex: 1;
+}
+
+.elaborative-photo {
+    width: 500px;
+    height: 300px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.info.header {
+    font-size: 36px;
+    color: #1F2937;
+    margin: 10px 0;
+}
+
+.media-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.snippets {
+    border: 3px solid #3882F6;
+    border-radius: 20%;
+    width: 200px;
+    height: 200px;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction:  column;
+    align-content: center;
+    flex: 1;
+}
+
+.text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2927;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 20%;
+    flex: 1;
+}
+
+.blog-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.blog-header {
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-dark {
+    background-color: #1F2937;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.sub-text {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 8px;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 20%;
+    width: 24px;
+    text-align: center;
+}
+
