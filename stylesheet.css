@@ -20,7 +20,13 @@ body {
 }
 
 .logo {
-    font-size: 28px;
+    font-size: 32px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    gap: 25px;
 }
 
 .hero-container {
@@ -28,18 +34,24 @@ body {
     gap: 15px;
     justify-content: center;
     align-items: center;
+    gap: 25px;
 }
 
 .hero-info {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 5px;
+    gap: 15px;
 }
 
 .hero-main {
-    font-size: 24px;
+    font-size: 32px;
+    color: white;
     line-height: 5px;
+}
+
+.hero-secondary {
+    color: #E5E7EB;
 }
 
 .hero-main, .hero-secondary {
@@ -47,28 +59,37 @@ body {
 }
 
 .elaborative-photo {
-    width: 500px;
-    height: 300px;
+    max-width: 600px;
+    max-height: 300px;
+    margin: 25px;
+    flex: 1;
+
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     flex: 1;
 }
 
-.info.header {
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info .header {
     font-size: 36px;
     color: #1F2937;
-    margin: 10px 0;
+    padding-bottom: 15px;
 }
 
 .media-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    gap: 15px;
 }
 
 .snippets {
@@ -76,6 +97,7 @@ body {
     border-radius: 20%;
     width: 200px;
     height: 200px;
+    margin-bottom: 20px;
 }
 
 .media {
@@ -89,14 +111,18 @@ body {
     background-color: #E5E7EB;
     display: flex;
     flex-direction:  column;
-    align-content: center;
     flex: 1;
+}
+
+.hero-container, .info, .quote {
+    padding: 25px;
 }
 
 .text {
     font-size: 36px;
     font-style: italic;
     color: #1F2927;
+    align-self: center;
 }
 
 .author {
@@ -114,15 +140,18 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    border-radius: 20%;
+    border-radius: 5%;
     flex: 1;
+    padding: 30px;
+    margin: 50 200px;
+    justify-content: space-around;
 }
-
 .blog-info {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    color: #E5E7EB;
 }
 
 .blog-header {
@@ -133,6 +162,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #E5E7EB;
+    padding: 20px;
 }
 
 .back-dark {
@@ -144,18 +175,24 @@ body {
 }
 
 .sub-text {
-    font-size: 10px;
+    font-size: 14px;
 }
 
 a {
     text-decoration: none;
-    font-size: 8px;
+    font-size: 14px;
+    color: #E5E7EB
 }
 
 button {
     background-color: #3882F6;
-    border-radius: 20%;
-    width: 24px;
+    border-radius: 15%;
+    padding: 10px 15px;
     text-align: center;
+    color:#E5E7EB;
+}
+
+.sign-up {
+    border: 2px solid white;
 }
 
